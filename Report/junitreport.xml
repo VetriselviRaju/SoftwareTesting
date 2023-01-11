@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="386.216776">
+    <testcase classname="To order the food in Bisto Bites application" name="To validate the login functionality of Bisto Bites with the invalid “Username” and “Password”" time="32.947777">
+        <system-out><![CDATA[Given To launch the chrome browser and maximize the window..................passed
+When To launch the url of the Bisto Bite application........................passed
+When To click the Account button............................................passed
+And To enter the wrong Username in mobile field.............................passed
+And To enter the wrong Password in password field...........................passed
+And To click the login button...............................................passed
+And To check the output as Invalid Mobile No................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To order the food in Bisto Bites application" name="To order Dosa" time="107.214883">
+        <system-out><![CDATA[Given To launch the chrome browser and maximize the window..................passed
+When To launch the url of the Bisto Bite application........................passed
+And To click the HOME button on the home page...............................passed
+And To click the Dosa button in drop down box...............................passed
+And To select the Masala Dosa option........................................passed
+And To enter the page and check the Available Time..........................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To order the food in Bisto Bites application" name="To fill out the registration form and ignores the confirm password" time="58.6678">
+        <system-out><![CDATA[Given To launch the chrome browser and maximize the window..................passed
+When To launch the url of the Bisto Bite application........................passed
+And To click the Account....................................................passed
+And To fill out the registration form with dummy data(name, phone number, email…).passed
+And To click the register button............................................passed
+And To check the output in the pop-up box as Please fill out the field......passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To order the food in Bisto Bites application" name="To search for the Coke can and check the price" time="67.454632">
+        <system-out><![CDATA[Given To launch the chrome browser and maximize the window..................passed
+When To launch the url of the Bisto Bite application........................passed
+And To click the search icon................................................passed
+And To search Coke and check the can dollar price...........................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To order the food in Bisto Bites application" name="To select the Spanish Omelet" time="67.382127">
+        <system-out><![CDATA[Given To launch the chrome browser and maximize the window..................passed
+When To launch the url of the Bisto Bite application........................passed
+And To click the Search icon................................................passed
+And To select the option by probability.....................................passed
+And To check the dollar probability.........................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To order the food in Bisto Bites application" name="To read Our Story" time="52.549557">
+        <system-out><![CDATA[Given To launch the chrome browser and maximize the window..................passed
+When To launch the url of the Bisto Bite application........................passed
+And To click the Our Story option...........................................passed
+And To check the spelling mistake...........................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

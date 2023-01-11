@@ -1,0 +1,613 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3022887600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "Bisto1.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16040936800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of the Bisto Bite application",
+            "match": {
+              "location": "Bisto1.to_launch_the_url_of_the_Bisto_Bite_application()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "To validate the login functionality of Bisto Bites with the invalid “Username” and “Password”",
+        "description": "",
+        "id": "to-order-the-food-in-bisto-bites-application;to-validate-the-login-functionality-of-bisto-bites-with-the-invalid-“username”-and-“password”",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10678762200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click the Account button",
+            "match": {
+              "location": "Bisto1.to_click_the_Account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189091000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To enter the wrong Username in mobile field",
+            "match": {
+              "location": "Bisto1.to_enter_the_wrong_Username_in_mobile_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191551500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To enter the wrong Password in password field",
+            "match": {
+              "location": "Bisto1.to_enter_the_wrong_Password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2211325900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To click the login button",
+            "match": {
+              "location": "Bisto1.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205501700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To check the output as Invalid Mobile No",
+            "match": {
+              "location": "Bisto1.to_check_the_output_as_Invalid_Mobile_No()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 401544100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To close the Browser",
+            "match": {
+              "location": "Bisto6.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1093074800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "Bisto1.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89313671700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of the Bisto Bite application",
+            "match": {
+              "location": "Bisto1.to_launch_the_url_of_the_Bisto_Bite_application()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "To order Dosa",
+        "description": "",
+        "id": "to-order-the-food-in-bisto-bites-application;to-order-dosa",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4237987700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "To click the HOME button on the home page",
+            "match": {
+              "location": "Bisto2.to_click_the_HOME_button_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9851274500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "To click the Dosa button in drop down box",
+            "match": {
+              "location": "Bisto2.to_click_the_Dosa_button_in_drop_down_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2252471100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "To select the Masala Dosa option",
+            "match": {
+              "location": "Bisto2.to_select_the_Masala_Dosa_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58484600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "To enter the page and check the Available Time",
+            "match": {
+              "location": "Bisto2.to_enter_the_page_and_check_the_Available_Time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407394600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "To close the Browser",
+            "match": {
+              "location": "Bisto6.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@2"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1074376300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "Bisto1.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50480251800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of the Bisto Bite application",
+            "match": {
+              "location": "Bisto1.to_launch_the_url_of_the_Bisto_Bite_application()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "To fill out the registration form and ignores the confirm password",
+        "description": "",
+        "id": "to-order-the-food-in-bisto-bites-application;to-fill-out-the-registration-form-and-ignores-the-confirm-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5556090400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "To click the Account",
+            "match": {
+              "location": "Bisto3.to_click_the_Account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 507922000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "To fill out the registration form with dummy data(name, phone number, email…)",
+            "match": {
+              "location": "Bisto3.to_fill_out_the_registration_form_with_dummy_data_name_phone_number_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77600100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "To click the register button",
+            "match": {
+              "location": "Bisto3.to_click_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497391200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "To check the output in the pop-up box as Please fill out the field",
+            "match": {
+              "location": "Bisto3.to_check_the_output_in_the_pop_up_box_as_Please_fill_out_the_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 473738600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "To close the Browser",
+            "match": {
+              "location": "Bisto6.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@3"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1563661400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "Bisto1.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62152354500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of the Bisto Bite application",
+            "match": {
+              "location": "Bisto1.to_launch_the_url_of_the_Bisto_Bite_application()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "To search for the Coke can and check the price",
+        "description": "",
+        "id": "to-order-the-food-in-bisto-bites-application;to-search-for-the-coke-can-and-check-the-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 95103700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "To click the search icon",
+            "match": {
+              "location": "Bisto4.to_click_the_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3298244600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "To search Coke and check the can dollar price",
+            "match": {
+              "location": "Bisto4.to_search_Coke_and_check_the_can_dollar_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 344945900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "To close the Browser",
+            "match": {
+              "location": "Bisto6.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@4"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1121557700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "Bisto1.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65452760900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of the Bisto Bite application",
+            "match": {
+              "location": "Bisto1.to_launch_the_url_of_the_Bisto_Bite_application()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 47,
+        "name": "To select the Spanish Omelet",
+        "description": "",
+        "id": "to-order-the-food-in-bisto-bites-application;to-select-the-spanish-omelet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74879500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "To click the Search icon",
+            "match": {
+              "location": "Bisto5.to_click_the_Search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228984200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "To select the option by probability",
+            "match": {
+              "location": "Bisto5.to_select_the_option_by_probability()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47781300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "To check the dollar probability",
+            "match": {
+              "location": "Bisto5.to_check_the_dollar_probability()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 455609600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "To close the Browser",
+            "match": {
+              "location": "Bisto6.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@5"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1406098100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the chrome browser and maximize the window",
+            "match": {
+              "location": "Bisto1.to_launch_the_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46332580900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of the Bisto Bite application",
+            "match": {
+              "location": "Bisto1.to_launch_the_url_of_the_Bisto_Bite_application()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "To read Our Story",
+        "description": "",
+        "id": "to-order-the-food-in-bisto-bites-application;to-read-our-story",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4344751900,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "To click the Our Story option",
+            "match": {
+              "location": "Bisto6.to_click_the_Our_Story_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "To check the spelling mistake",
+            "match": {
+              "location": "Bisto6.to_check_the_spelling_mistake()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465627700,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "To close the Browser",
+            "match": {
+              "location": "Bisto6.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@6"
+          }
+        ]
+      }
+    ],
+    "name": "To order the food in Bisto Bites application",
+    "description": "",
+    "id": "to-order-the-food-in-bisto-bites-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/BistoBites.feature",
+    "tags": []
+  }
+]
